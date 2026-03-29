@@ -368,5 +368,5 @@ with gr.Blocks(
         inputs=[risk_out, food_out, clinical_out],
         outputs=report_file
     ).then(lambda: gr.update(visible=True), None, report_file)
-
-demo.launch(server_name="0.0.0.0",server_port=10000)
+import os port=int(os.environ.get("PORT",10000))
+demo.launch(server_name="0.0.0.0",server_port=port)

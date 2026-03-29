@@ -1,8 +1,0 @@
-gradio
-tensorflow
-joblib
-pandas
-numpy
-scikit-learn
-plotly
-reportlab

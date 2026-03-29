@@ -369,4 +369,4 @@ with gr.Blocks(
         outputs=report_file
     ).then(lambda: gr.update(visible=True), None, report_file)
 
-demo.launch(share=True)
+demo.launch(server_name="0.0.0.0",server_port=10000)

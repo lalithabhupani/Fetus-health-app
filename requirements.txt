@@ -1,0 +1,8 @@
+gradio
+tensorflow-cpu
+joblib
+pandas
+numpy
+scikit-learn
+plotly
+reportlab
